@@ -25,7 +25,7 @@ echo "Computer's choice: " . $choices[$computerchoice]."\n";
 echo determineWinner($playerchoice, $computerchoice);
 
 //salidzina vai playerchoice ir vienads ar abam uzvaras kombinacijam ja nav, computer uzvar
-// izmantoju % lai varetu no pedejas izveles 4 tikt uz nakama kas ir , jo 4+1%5 = 0
+// izmantoju % lai varetu no pedejas izveles 4 tikt uz pirmo kkas butu 0 un sanak circular check , jo 4+1%5 = 0
 
 
 
